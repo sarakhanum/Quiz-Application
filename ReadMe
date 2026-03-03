@@ -1,0 +1,40 @@
+📝 Quiz Application
+
+A simple Quiz Web Application built using Django.
+Users can attempt quizzes and view results through a clean web interface.
+
+🚀 Features
+
+Create and manage quizzes
+Attempt quiz questions
+View results
+Admin panel for managing questions
+
+🛠️ Technologies Used
+
+Python
+Django
+SQLite (Default Database)
+
+📂 Project Structure
+quiz/
+│── manage.py
+│── db.sqlite3
+│── quiz/        (Project settings)
+│── home/        (App)
+
+▶️ How to Run
+1️⃣ Navigate to project folder (where manage.py exists)
+cd quiz
+
+2️⃣ Install Django (if not installed)
+pip install django
+
+3️⃣ Run migrations
+python manage.py migrate
+
+4️⃣ Start server
+python manage.py runserver
+
+Open in browser:
+http://127.0.0.1:8000/
